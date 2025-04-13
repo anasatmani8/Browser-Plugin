@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Color & Translate Extension",
+  "version": "1.0",
+  "description": "Changes background color and translates pages",
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "permissions": ["tabs", "activeTab"],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "icons": {
+    "48": "icon.png"
+  }
+}
